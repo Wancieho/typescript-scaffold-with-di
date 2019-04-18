@@ -1,5 +1,4 @@
 import { inject, injectable } from 'inversify';
-
 import DIContainer from './app/definitions';
 
 import App from './app/app';
