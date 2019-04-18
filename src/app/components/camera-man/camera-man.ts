@@ -22,8 +22,8 @@ export default class CameraMan {
   public generate(): void {
     this.camera = new ArcRotateCamera('camera', 0, 0, 10, Vector3.Zero(), this.scene.instance);
     this.camera.attachControl(this.canvas.element);
-    this.camera.setTarget(new Vector3(0, 0, 0));
-    this.camera.setPosition(new Vector3(5, 5, 60));
+    this.camera.setTarget(new Vector3(0, 10, 0));
+    this.camera.setPosition(new Vector3(0, 40, 150));
   }
 
 }
